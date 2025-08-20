@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-st.title("SMSSpam Classifier")
+st.title("SMS Spam Classifier")
 st.write("This app classifies SMS messages as spam or ham (not spam).")
 id2label = {0: "ham", 1: "spam"}
 import re
