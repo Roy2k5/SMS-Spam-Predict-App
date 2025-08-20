@@ -41,7 +41,7 @@ This will launch the application in your default web browser.
 # 🎬 Demo
 
 You can try it at https://spamsmspredict.streamlit.app/
-![[demo/image.png]]
+![Giao diện ứng dụng](demo/image.png)
 
 # 📂 File Structure
 
