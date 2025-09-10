@@ -9,6 +9,14 @@ import re
 
 
 def preprocess_text(text):
+    """
+    Function process data
+    Args:
+        text(str): text input
+    Returns:
+        text after process
+
+    """
     # Example preprocessing: lowercasing and removing punctuation
     text = text.replace("\n", " ").strip()
     text = re.sub(r"[^\w\s]", "", text)  # Remove punctuation
